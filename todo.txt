@@ -1,0 +1,24 @@
+[common]
+- https://github.com/tpope/vim-fugitive
+- https://github.com/preservim/nerdtree + https://github.com/ryanoasis/vim-devicons
+- https://github.com/vim-airline/vim-airline
+- https://vimawesome.com/plugin/fzf
+- https://github.com/nathanaelkane/vim-indent-guides
+- https://github.com/editorconfig/editorconfig-vim
+- https://vimawesome.com/plugin/notes-vim
+
+[competition]
+- https://github.com/ycm-core/YouCompleteMe
+- https://github.com/ervandew/supertab
+
+[languages]
+- https://github.com/fatih/vim-go
+- https://github.com/pangloss/vim-javascript
+
+[syntax]
+-- https://vimawesome.com/plugin/vim-polyglot
+- https://vimawesome.com/plugin/syntastic OR https://github.com/dense-analysis/ale
+
+[schemes]
+- https://github.com/altercation/vim-colors-solarized
+- https://github.com/tomasr/molokai

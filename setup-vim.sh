@@ -1,8 +1,14 @@
 #!env sh
 ln -s `realpath ./vimrc` ~/.vimrc
 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+git clone --depth 1 https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
+
+git clone --depth 1 https://github.com/scrooloose/nerdtree.git ~/.vim/pack/dist/start/nerdtree
+
+git clone --depth 1 https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
+
+#curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+#    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 curl -fLo ~/.vim/colors/tender.vim --create-dirs \
     https://raw.githubusercontent.com/jacoborus/tender.vim/master/colors/tender.vim

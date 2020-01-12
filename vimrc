@@ -1,7 +1,10 @@
-call plug#begin()
-" colorsheme: https://github.com/jacoborus/tender.vim"
-Plug 'jacoborus/tender.vim'"
-call plug#end()
+" golang
+" Run goimports along gofmt on each save
+let g:go_fmt_command = "goimports"
+" Automatically get signature/type info for object under cursor     
+let g:go_auto_type_info = 1
+" Autocomplete on dot
+au filetype go inoremap <buffer> . .<C-x><C-o>
 
 colorscheme tender
 
@@ -116,5 +119,3 @@ set tm=500
 set nobackup
 set nowb
 set noswapfile
-
-
