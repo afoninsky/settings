@@ -7,6 +7,8 @@
 - https://github.com/editorconfig/editorconfig-vim
 - https://vimawesome.com/plugin/notes-vim
 
+
+
 [competition]
 - https://github.com/ycm-core/YouCompleteMe
 - https://github.com/ervandew/supertab

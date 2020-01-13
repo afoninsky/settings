@@ -1,0 +1,3 @@
+source ~/.vim/custom/basic.vim
+source ~/.vim/custom/scheme.vim
+source ~/.vim/custom/mapping.vim

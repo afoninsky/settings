@@ -1,5 +1,6 @@
 #!env sh
-ln -s `realpath ./vimrc` ~/.vimrc
+ln -s `realpath .`/vim/ ~/.vim/custom
+ln -s `realpath .`/vim/vimrc ~/.vimrc
 
 git clone --depth 1 https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
 
