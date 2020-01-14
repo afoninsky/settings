@@ -10,4 +10,8 @@ vmap <leader>p "+p
 vmap <leader>P "+P
 
 " save a file
-nnoremap <Leader>w :w<CR>
+nnoremap <leader>w :w<CR>
+
+" toggle checkbox
+" https://vimawesome.com/plugin/vim-todo-lists
+nnoremap <leader>t :VimTodoListsToggleItem<CR>

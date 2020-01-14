@@ -8,6 +8,8 @@ git clone --depth 1 https://github.com/scrooloose/nerdtree.git ~/.vim/pack/dist/
 
 git clone --depth 1 https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
 
+git clone --depth 1 https://github.com/aserebryakov/vim-todo-lists.git ~/.vim/pack/dist/start/vim-todo-list
+
 #curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 #    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 

@@ -1,12 +1,14 @@
-[common]
-- https://github.com/tpope/vim-fugitive
-- https://github.com/preservim/nerdtree + https://github.com/ryanoasis/vim-devicons
-- https://github.com/vim-airline/vim-airline
-- https://vimawesome.com/plugin/fzf
-- https://github.com/nathanaelkane/vim-indent-guides
-- https://github.com/editorconfig/editorconfig-vim
-- https://vimawesome.com/plugin/notes-vim
+start from:
+https://alex.dzyoba.com/blog/vim-revamp/
+https://blog.hellojs.org/configure-vim-from-scratch-efe5cbc1c563
 
+[common]
+- [ ] https://vimawesome.com/plugin/fzf
+- [ ] https://github.com/editorconfig/editorconfig-vim
+- [ ] https://github.com/vim-airline/vim-airline
+- [ ] https://github.com/nathanaelkane/vim-indent-guides
+- [ ] https://github.com/preservim/nerdtree + https://github.com/ryanoasis/vim-devicons
+- [ ] https://github.com/tpope/vim-fugitive
 
 
 [competition]
