@@ -5,6 +5,12 @@ BASEDIR=`dirname "$0"`
 alias kctx=kubectx
 alias kns=kubens
 
+### macbook-specific settings
+
+if [ `hostname` = "android-mb3023d7916c7870ca.local" ]; then
+  export DOCKER_HOST="192.168.1.66"
+fi
+
 ### common settings
 export LC_ALL=en_US.UTF-8
 export EDITOR="vim"
@@ -30,7 +36,7 @@ ps1() {
 
 
 ### golang
-GOPATH=`go env GOPATH`
+export GOPATH=`go env GOPATH`
 
 ### autocomplete
 # source ~/google-cloud-sdk/completion.zsh.inc
@@ -38,4 +44,4 @@ GOPATH=`go env GOPATH`
 # https://github.com/kubernetes/kubernetes/issues/59078
 # source <(kubectl completion zsh)
 # source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
-
+source <(semantic aliases)
