@@ -9,7 +9,7 @@ alias kns=kubens
 ### macbook-specific settings
 
 if [ `hostname` = "android-mb3023d7916c7870ca.local" ]; then
-  export DOCKER_HOST="192.168.1.66"
+  export DOCKER_HOST="tcp://192.168.1.66:2375"
 fi
 
 ### common settings
