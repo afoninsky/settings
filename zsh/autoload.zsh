@@ -1,4 +1,5 @@
 # brew install kube-ps1 coreutils
+
 BASEDIR=`dirname "$0"`
 
 ### useful aliases
@@ -18,6 +19,10 @@ export ZSH_THEME="drago"
 export PATH=$PATH:$GOPATH/bin:$HOME/google-cloud-sdk/bin:"$BASEDIR/bin:$HOME/go/bin"
 export HISTCONTROL=ignoredups:erasedups
 export LANG=en_US.UTF-8
+
+### aws-vault config
+export AWS_SESSION_TOKEN_TTL=4h
+export AWS_ASSUME_ROLE_TTL=1h
 
 alias git-summary='$BASEDIR/bin/git-summary.sh'
 
